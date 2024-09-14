@@ -18,14 +18,13 @@ img {
 #container1 {
     width: 1200px;
     height: 100px;
-    border: black 2px solid;
+    border: rgb(82, 82, 82) 2px solid;
     background-color: #ffffff;
     margin: auto;
 }
 
 #container2 {
     width: 1200px;
-    height: 100vh;
     border: black 2px solid;
     background-color: #ffffff;
     margin: auto;
@@ -36,7 +35,7 @@ fieldset {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 15px;
     background-color: rgb(133, 133, 133);
     color: #ffffff;
     padding: 2px;
@@ -54,3 +53,19 @@ input {
 #titleCon {
     margin-top: 2px;
 }
+
+#button {
+    background-color: rgb(51, 201, 51);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: rgb(29, 112, 29);
+}
+
+
